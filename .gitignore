@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Some Mac safeguard
+.DS_Store
+
+# Safeguard configs
+config.py
+
+# Safeguard api configs
+api_keys.py
