@@ -42,5 +42,3 @@ I created the function for plotting linear regressions but didn't actually use i
 The heatmap and the heatmap with the marker layer for hotels show repeating world maps when they first run. You have to zoom in to see just one world map. The heatmap with the markers layer also doesn't fill the whole cell so scrolling is involved. I have not yet figured out why this is occurring and how to fix it. 
 
 I ended up having cities that didn't pull a hotel name so I removed those rows from the dataframe before adding the marker layer.
-
-I couldn't get separate latitude and longitude columns to work with the Google Places API so I added a column to the dataframe with the values combined and that worked.
